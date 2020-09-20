@@ -1,0 +1,3 @@
+Algorithm:
+Loop through the array and keep track of repeating elements, once an element is repeated, 
+immediately compute the d value and store it. In the end, we return the mininum positive d value
