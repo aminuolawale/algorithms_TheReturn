@@ -30,7 +30,7 @@ func workbook(n int32, k int32, arr []int32) int32 {
 			if  i>=m+1 && i<=m+pageQuestions{
 				count ++
 			}
-			m+=k
+			m+=pageQuestions
 		}
 		page += pagesOccupied
 	}
