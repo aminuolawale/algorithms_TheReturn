@@ -51,7 +51,7 @@ func contains( array []int, val int) (bool, int) {
 }
 
 func sliceSum(slice []int32) int {
-	result :=0
+	result :=0 
 	for _, val :=range slice {
 		result += int(val)
 	}
